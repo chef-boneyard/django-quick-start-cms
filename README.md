@@ -39,7 +39,7 @@ Setup Instructions
 Setup Database Non-Interactively
 ================================
 
-    (django-cms):~/django-quick-start-cms$ python manage.py syncdb --all --migrate --noinput
+    (django-cms):~/django-quick-start-cms$ python manage.py syncdb --all --noinput
     (django-cms):~/django-quick-start-cms$ python manage.py createsuperuser --noinput --username=admin --email=admin@foo.com
     (django-cms):~/django-quick-start-cms$ export DJANGO_SETTINGS_MODULE=settings;python -c "from django.contrib.auth.models import User; u=User.objects.get(username='admin');u.set_password('foobar');u.save();"
 
