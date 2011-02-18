@@ -3,3 +3,4 @@ south==0.7.3
 django-cms==2.1.2
 django-appmedia==1.0.1
 django-extensions==0.6
+MySQL-python
